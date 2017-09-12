@@ -1,4 +1,4 @@
-## Myhaproxy
+# Myhaproxy
 
 # Official site
 http://www.haproxy.org
@@ -9,4 +9,5 @@ https://cbonte.github.io/haproxy-dconv/
 
 # How to
 1 mount haproxy.cfg
-$ docker run -d --name myhaproxy01 -v /path/to/etc/haproxy:/usr/local/etc/haproxy:ro kadok0520/myhaproxy
+$ docker run -d -p 80:80 --name myhaproxy01 -v /path/to/etc/haproxy:/usr/local/etc/haproxy:ro kadok0520/myhaproxy
+
