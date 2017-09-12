@@ -5,7 +5,7 @@ http://www.haproxy.org
 https://hub.docker.com/_/haproxy/
 https://cbonte.github.io/haproxy-dconv/
 
-# Mounting volumes
+# Mounting volumes (put haproxy.cfg)
 /usr/local/etc/haproxy/
 
 # How to
