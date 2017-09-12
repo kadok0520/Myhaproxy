@@ -1,5 +1,3 @@
-# Myhaproxy
-
 # Official site
 http://www.haproxy.org
 
